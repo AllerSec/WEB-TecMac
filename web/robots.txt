@@ -1,0 +1,9 @@
+# robots.txt - TECMAC
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.tecmac.es/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

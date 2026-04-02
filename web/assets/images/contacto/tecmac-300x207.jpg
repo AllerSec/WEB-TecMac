@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="es-ES">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="es-ES">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="es-ES">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="Ingeniería y fabricación para industrias siderúrgicas." />
+<meta name="keywords" content="Tecmac" />
+<title>Página no encontrada - Tecmac - Ingeniería y fabricación para industrias siderúrgicas.</title>
+
+<link rel="shortcut icon" href="http://www.tecmac.es/wp-content/themes/industrial/img/favicon.ico" type="image/x-icon" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://tecmac.es/xmlrpc.php" />
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="noindex, follow" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:title" content="Página no encontrada - Tecmac" />
+	<meta property="og:site_name" content="Tecmac" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://tecmac.es/#website","url":"https://tecmac.es/","name":"Tecmac","description":"Ingenier\u00eda y fabricaci\u00f3n para industrias sider\u00fargicas.","potentialAction":[{"@type":"SearchAction","target":"https://tecmac.es/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"es"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Tecmac &raquo; Feed" href="https://tecmac.es/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tecmac &raquo; Feed de los comentarios" href="https://tecmac.es/comments/feed/" />
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.0.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var em_version         = '6.0.2';
+	var em_track_user      = true;
+	var em_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-89297859-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( em_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+window.ga = __gaTracker;		__gaTracker('create', 'UA-89297859-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer);
+		__gaTracker( function() { window.ga = __gaTracker; } );
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Función desactivada __gaTracker(' + arguments[0] + " ....) porque no estás siendo rastreado. " + em_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+			window.ga = __gaTracker;		})();
+		}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tecmac.es\/wp-includes\/js\/wp-emoji-release.min.js?ver=0db3cb6c59f4dd6467edb5a873331d22"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://tecmac.es/wp-includes/css/dist/block-library/style.min.css?ver=0db3cb6c59f4dd6467edb5a873331d22' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://tecmac.es/wp-content/plugins/cookie-notice/css/front.min.css?ver=0db3cb6c59f4dd6467edb5a873331d22' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://tecmac.es/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.5.2' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='//tecmac.es/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.css?ver=1' type='text/css' media='all' />
+<style id='wpml-legacy-horizontal-list-0-inline-css' type='text/css'>
+.wpml-ls-statics-shortcode_actions{background-color:#eeeeee;}.wpml-ls-statics-shortcode_actions, .wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu, .wpml-ls-statics-shortcode_actions a {border-color:#cdcdcd;}.wpml-ls-statics-shortcode_actions a {color:#444444;background-color:#ffffff;}.wpml-ls-statics-shortcode_actions a:hover,.wpml-ls-statics-shortcode_actions a:focus {color:#000000;background-color:#eeeeee;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a {color:#444444;background-color:#ffffff;}.wpml-ls-statics-shortcode_actions .wpml-ls-current-language:hover>a, .wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a:focus {color:#000000;background-color:#eeeeee;}
+</style>
+<link rel='stylesheet' id='bsf-Defaults-css'  href='https://tecmac.es/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=0db3cb6c59f4dd6467edb5a873331d22' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='https://tecmac.es/wp-content/themes/tecmac/style.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='theme-fonts-css'  href='https://tecmac.es/wp-content/themes/industrial/css/fonts.php?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='theme-adapt-css'  href='https://tecmac.es/wp-content/themes/industrial/css/adaptive.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='theme-retina-css'  href='https://tecmac.es/wp-content/themes/industrial/css/retina.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='jackbox-css'  href='https://tecmac.es/wp-content/themes/industrial/css/jackbox.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='jPlayer-css'  href='https://tecmac.es/wp-content/themes/industrial/css/jquery.jPlayer.css?ver=2.1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='isotope-css'  href='https://tecmac.es/wp-content/themes/industrial/css/jquery.isotope.css?ver=1.5.19' type='text/css' media='screen' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='theme-ie-css'  href='https://tecmac.es/wp-content/themes/industrial/css/ie.css?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='theme-ieCss3-css'  href='https://tecmac.es/wp-content/themes/industrial/css/ieCss3.php?ver=1.0.0' type='text/css' media='screen' />
+<![endif]-->
+<link rel='stylesheet' id='cmsms-google-font-1-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&#038;ver=0db3cb6c59f4dd6467edb5a873331d22' type='text/css' media='all' />
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/modernizr.custom.all.min.js?ver=2.5.2'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/respond.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/tecmac.es","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend.min.js?ver=6.0.2'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.5.2'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.5.2'></script>
+<link rel='https://api.w.org/' href='https://tecmac.es/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tecmac.es/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://tecmac.es/wp-includes/wlwmanifest.xml" /> 
+
+<meta name="generator" content="WPML ver:4.3.10 stt:16,1,4,2;" />
+<script type="text/javascript">var templateURL = "https://tecmac.es/wp-content/themes/industrial";</script><style type="text/css">body { background-color : #ffffff; background-image : url(); background-position : top center; background-repeat : no-repeat; background-attachment : fixed; }#middle.cmsms_middle_margin { margin-top : 130px; } #header > .header_inner { height : 130px; } #header.fixed_header + * { margin-top : 130px; } #header > .header_inner > a.logo { top : 35px; left : 0px; } .header_inner:after { width : 255px; } #header > .header_inner > a.logo > img { width : 120px; height : 70px; } #header nav { top : 45px; left : 255px; } #header .social_icons { top : 50px; left : 255px; } #header .search_line { top : 65px; left : 255px; } .header_html { top : 15px; right : 0px; } #header.fixed_header > .header_inner { height : 86.666666666667px; } #header.fixed_header > .header_inner > a.logo { top : 13.333333333333px; } #header.fixed_header nav { top : 23.333333333333px; } #header.fixed_header .social_icons { top : 28.333333333333px; } #header.fixed_header .search_line { top : 43.333333333333px; } @media only screen and (max-width : 1024px) { .cmsms_responsive #middle.cmsms_middle_margin { margin-top : 0px; } .cmsms_responsive .header_inner:after { margin-left : 5%; } .cmsms_responsive #header nav { top : auto; left : auto; } .cmsms_responsive #header > .header_inner > a.logo { top : auto; left : auto; } .cmsms_responsive #header > .header_inner { height : auto; } } @media only screen and (max-width : 767px) { .cmsms_responsive #header .search_line, .cmsms_responsive #header .social_icons { top : auto; left : auto; } } @media only screen and (max-width : 450px) { .cmsms_responsive .header_html { top : auto; } .cmsms_responsive #header > .header_inner > a.logo { width : 90%; height : auto; } .cmsms_responsive #header > .header_inner > a.logo > img { margin : 0 auto; } .cmsms_responsive .header_inner:after { width : 90%; } } </style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 5.4.5.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="error404 cookies-not-set wpb-js-composer js-comp-ver-6.1 vc_responsive">
+
+<!-- _________________________ Start Page _________________________ -->
+<section id="page" class="csstransition cmsms_responsive hfeed site">
+	<a href="#" id="slide_top"></a>
+<!-- _________________________ Start Container _________________________ -->
+<div class="container set_fixed">
+	
+<!-- _________________________ Start Header _________________________ -->
+<header class="
+	 header_position" id="header">
+	<div class="header_inner">
+		<div id="idiomas">
+<div class="lang_sel_list_horizontal wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal" id="lang_sel_list">
+	<ul><li class="icl-es wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://tecmac.es" class="wpml-ls-link"><span class="wpml-ls-native icl_lang_sel_native">Español</span></a>
+			</li><li class="icl-eu wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-eu wpml-ls-item-legacy-list-horizontal">
+				<a href="https://tecmac.es/eu/" class="wpml-ls-link"><span class="wpml-ls-native icl_lang_sel_native" lang="eu">Euskara</span></a>
+			</li><li class="icl-en wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-item-legacy-list-horizontal">
+				<a href="https://tecmac.es/en/" class="wpml-ls-link"><span class="wpml-ls-native icl_lang_sel_native" lang="en">English</span></a>
+			</li><li class="icl-fr wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://tecmac.es/fr/" class="wpml-ls-link"><span class="wpml-ls-native icl_lang_sel_native" lang="fr">Français</span></a>
+			</li></ul>
+</div>
+</div>
+		<a href="https://tecmac.es/" title="Tecmac" class="logo">
+	<img src="https://tecmac.es/wp-content/uploads/2016/01/logo.png" alt="Tecmac" /></a>
+<a class="responsive_nav" href="javascript:void(0);"></a>		<!-- _________________________ Start Navigation _________________________ -->
+		<nav role="navigation" class=" nav_numbering">
+			<ul id="navigation" class="navigation"><li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-22"><a href="https://tecmac.es/"><span>Inicio</span></a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://tecmac.es/empresa/"><span>Empresa</span></a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://tecmac.es/ingenieria/"><span>Ingenieria</span></a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="https://tecmac.es/fabricacion/"><span>Fabricación</span></a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://tecmac.es/referencias/"><span>Referencias</span></a></li>
+<li id="menu-item-483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="https://tecmac.es/contacto/"><span>Contacto</span></a></li>
+</ul>		</nav>
+				<div class="cl"></div>
+		<!-- _________________________ Finish Navigation _________________________ -->
+	</div>
+</header>
+<!-- _________________________ Finish Header _________________________ -->
+
+
+<!-- _________________________ Start Middle _________________________ -->
+<section id="middle" class="error_page cmsms_middle_margin">
+
+<div class="content_wrap fullwidth">
+
+<!-- _________________________ Start Content _________________________ -->
+<section id="middle_content" role="main">
+	<div class="entry">
+		<div class="error">
+		<h1>404</h1><h3>We're sorry, but the page you were looking for doesn't exist.</h3>
+<div class="search_line">
+	<form method="get" action="https://tecmac.es">
+		<p>
+			<input name="s" id="error_search" placeholder="enter keywords" value="" type="text">
+			<input value="" type="submit">
+		</p>
+	</form>
+</div>
+		</div>
+	</div>
+</section>
+<!-- _________________________ Finish Content _________________________ -->
+
+
+<div class="cl"></div>
+</div>
+</section>
+<!-- _________________________ Finish Middle _________________________ -->
+
+
+<a href="javascript:void(0);" id="slide_top"></a>
+</div>
+<!-- _________________________ Finish Container _________________________ -->
+
+<!-- _________________________ Start Footer _________________________ -->
+	<footer id="footer" role="contentinfo">
+		<div class="footer_inner">
+		<span class="copyright">Tecmac © 2016</span>
+		</div>
+	</footer>
+<!-- _________________________ Finish Footer _________________________ -->
+
+</section>
+<!-- _________________________ Finish Page _________________________ -->
+
+<script type="text/javascript">
+	jQuery(document).ready(function () {
+		jQuery('.cmsms_social').socicons( {
+			icons : 'nujij,ekudos,digg,linkedin,sphere,technorati,delicious,furl,netscape,yahoo,google,newsvine,reddit,blogmarks,magnolia,live,tailrank,facebook,twitter,stumbleupon,bligg,symbaloo,misterwong,buzz,myspace,mail,googleplus',
+			imagesurl : 'https://tecmac.es/wp-content/themes/industrial/img/share_icons/'
+		} );
+	} );
+</script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jquery.easing.min.js?ver=1.3.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jackbox-lib.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jackbox.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jquery.script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jquery.jPlayer.min.js?ver=2.1.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jquery.jPlayer.playlist.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/themes/industrial/js/jquery.tweet.min.js?ver=1.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/tecmac.es\/wp-admin\/admin-ajax.php","nonce":"a8b28c51ba","hideEffect":"fade","position":"bottom","onScroll":"1","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"0","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1","coronabarActive":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tecmac.es/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://tecmac.es/wp-includes/js/wp-embed.min.js?ver=0db3cb6c59f4dd6467edb5a873331d22'></script>
+
+		<!-- Cookie Notice plugin v1.3.2 by Digital Factory https://dfactory.eu/ -->
+		<div id="cookie-notice" role="banner" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(0,0,0,1);"><div class="cookie-notice-container" style="color: #fff;"><span id="cn-notice-text" class="cn-text-container">Utilizamos cookies para asegurar la mejor experiencia de usuario. Si continua navegando asumimos que acepta el uso de cookies.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button" aria-label="De acuerdo">De acuerdo</a></span><a href="javascript:void(0);" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" aria-label="De acuerdo"></a></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin --></body>
+</html>
