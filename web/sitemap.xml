@@ -2,7 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- HOME PAGES -->
+  <!-- ======================== HOME PAGES ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/index.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/index.html"/>
@@ -10,9 +11,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/index.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/index.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/index.html"/>
@@ -20,9 +22,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/index.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/index.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/index.html"/>
@@ -30,9 +33,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/index.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/index.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/index.html"/>
@@ -40,11 +44,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/index.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>1.0</priority>
   </url>
 
-  <!-- EMPRESA / COMPANY -->
+  <!-- ======================== COMPANY / EMPRESA ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/empresa.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/empresa.html"/>
@@ -52,9 +57,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/company.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/entreprise.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/empresa.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/company.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/empresa.html"/>
@@ -62,9 +68,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/company.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/entreprise.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/empresa.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/enpresa.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/empresa.html"/>
@@ -72,9 +79,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/company.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/entreprise.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/empresa.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/entreprise.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/empresa.html"/>
@@ -82,11 +90,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/company.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/entreprise.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/empresa.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
 
-  <!-- INGENIERIA / ENGINEERING -->
+  <!-- ======================== ENGINEERING / INGENIERIA ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/ingenieria.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/ingenieria.html"/>
@@ -94,9 +103,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/engineering.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/ingenierie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/ingenieria.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/engineering.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/ingenieria.html"/>
@@ -104,9 +114,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/engineering.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/ingenierie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/ingenieria.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/ingenieria.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/ingenieria.html"/>
@@ -114,9 +125,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/engineering.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/ingenierie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/ingenieria.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/ingenierie.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/ingenieria.html"/>
@@ -124,11 +136,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/engineering.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/ingenierie.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/ingenieria.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
 
-  <!-- FABRICACION / MANUFACTURE -->
+  <!-- ======================== MANUFACTURE / FABRICACION ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/fabricacion.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/fabricacion.html"/>
@@ -136,9 +149,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/manufacture.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/fabrication.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/fabricacion.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/manufacture.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/fabricacion.html"/>
@@ -146,9 +160,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/manufacture.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/fabrication.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/fabricacion.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/fabrikazioa.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/fabricacion.html"/>
@@ -156,9 +171,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/manufacture.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/fabrication.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/fabricacion.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/fabrication.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/fabricacion.html"/>
@@ -166,11 +182,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/manufacture.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/fabrication.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/fabricacion.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.8</priority>
   </url>
 
-  <!-- REFERENCIAS / REFERENCES -->
+  <!-- ======================== REFERENCES / REFERENCIAS ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/referencias.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/referencias.html"/>
@@ -178,9 +195,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/references.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/references.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/referencias.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/references.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/referencias.html"/>
@@ -188,9 +206,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/references.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/references.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/referencias.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/referencias.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/referencias.html"/>
@@ -198,9 +217,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/references.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/references.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/referencias.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/references.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/referencias.html"/>
@@ -208,11 +228,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/references.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/references.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/referencias.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
 
-  <!-- CONTACTO / CONTACT -->
+  <!-- ======================== CONTACT / CONTACTO ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/contacto.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/contacto.html"/>
@@ -220,9 +241,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/contact.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/contacto.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/contact.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/contacto.html"/>
@@ -230,9 +252,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/contact.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/contacto.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/kontaktua.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/contacto.html"/>
@@ -240,9 +263,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/contact.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/contacto.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/contact.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/contacto.html"/>
@@ -250,11 +274,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/contact.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/contact.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/contacto.html"/>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
   </url>
 
-  <!-- GALERIA UTILLAJE / TOOLING -->
+  <!-- ======================== GALLERY — TOOLING / UTILLAJE ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/galeria-utillaje.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
@@ -262,9 +287,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-tooling.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-outillage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/gallery-tooling.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
@@ -272,9 +298,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-tooling.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-outillage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/galeria-utillaje.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
@@ -282,9 +309,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-tooling.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-outillage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/galerie-outillage.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
@@ -292,11 +320,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-tooling.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-outillage.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
 
-  <!-- GALERIA TRANSPORTE / TRANSPORT -->
+  <!-- ======================== GALLERY — TRANSPORT / TRANSPORTE ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/galeria-transporte.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-transporte.html"/>
@@ -304,9 +333,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-transport.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-transport.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-transporte.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/gallery-transport.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-transporte.html"/>
@@ -314,9 +344,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-transport.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-transport.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-transporte.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/galeria-transporte.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-transporte.html"/>
@@ -324,9 +355,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-transport.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-transport.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-transporte.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/galerie-transport.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-transporte.html"/>
@@ -334,11 +366,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-transport.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-transport.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-transporte.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
 
-  <!-- GALERIA VARIOS / VARIOUS -->
+  <!-- ======================== GALLERY — VARIOUS / VARIOS ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/galeria-varios.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-varios.html"/>
@@ -346,9 +379,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-various.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-divers.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-varios.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/gallery-various.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-varios.html"/>
@@ -356,9 +390,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-various.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-divers.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-varios.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/galeria-varios.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-varios.html"/>
@@ -366,9 +401,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-various.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-divers.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-varios.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/galerie-divers.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-varios.html"/>
@@ -376,11 +412,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-various.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-divers.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-varios.html"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-03</lastmod>
+    <priority>0.6</priority>
   </url>
 
-  <!-- AVISO LEGAL / LEGAL NOTICE -->
+  <!-- ======================== LEGAL NOTICE / AVISO LEGAL ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/aviso-legal.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/aviso-legal.html"/>
@@ -388,9 +425,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/legal-notice.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/mentions-legales.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/aviso-legal.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/legal-notice.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/aviso-legal.html"/>
@@ -398,9 +436,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/legal-notice.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/mentions-legales.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/aviso-legal.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/lege-oharra.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/aviso-legal.html"/>
@@ -408,9 +447,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/legal-notice.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/mentions-legales.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/aviso-legal.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/mentions-legales.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/aviso-legal.html"/>
@@ -418,11 +458,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/legal-notice.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/mentions-legales.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/aviso-legal.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
 
-  <!-- POLITICA PRIVACIDAD / PRIVACY POLICY -->
+  <!-- ======================== PRIVACY POLICY / POLITICA PRIVACIDAD ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/politica-privacidad.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-privacidad.html"/>
@@ -430,9 +471,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-confidentialite.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-privacidad.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/privacy-policy.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-privacidad.html"/>
@@ -440,9 +482,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-confidentialite.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-privacidad.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/pribatutasun-politika.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-privacidad.html"/>
@@ -450,9 +493,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-confidentialite.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-privacidad.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/politique-confidentialite.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-privacidad.html"/>
@@ -460,11 +504,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-confidentialite.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-privacidad.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
 
-  <!-- POLITICA COOKIES / COOKIE POLICY -->
+  <!-- ======================== COOKIE POLICY / POLITICA COOKIES ======================== -->
+
   <url>
     <loc>https://www.tecmac.es/es/politica-cookies.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-cookies.html"/>
@@ -472,9 +517,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/cookie-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-cookies.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-cookies.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/en/cookie-policy.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-cookies.html"/>
@@ -482,9 +528,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/cookie-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-cookies.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-cookies.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/eu/cookie-politika.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-cookies.html"/>
@@ -492,9 +539,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/cookie-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-cookies.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-cookies.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
+
   <url>
     <loc>https://www.tecmac.es/fr/politique-cookies.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/politica-cookies.html"/>
@@ -502,7 +550,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/cookie-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/politique-cookies.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-cookies.html"/>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-04-03</lastmod>
     <priority>0.3</priority>
   </url>
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cookie Politika - Tecmac</title>
-  <meta name="description" content="TECMAC webgunearen cookie politika.">
+  <meta name="description" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L. enpresaren cookie politika.">
   <meta name="robots" content="noindex, follow">
   <meta name="author" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.">
   <meta name="theme-color" content="#1a2a3a">
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/politica-cookies.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Cookie Politika - Tecmac">
-  <meta property="og:description" content="TECMAC webgunearen cookie politika.">
+  <meta property="og:description" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L. enpresaren cookie politika.">
   <meta property="og:url" content="https://www.tecmac.es/eu/cookie-politika.html">
   <meta property="og:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <meta property="og:site_name" content="TECMAC">
@@ -26,15 +26,17 @@
   <meta property="og:locale:alternate" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cookie Politika - Tecmac">
-  <meta name="twitter:description" content="TECMAC webgunearen cookie politika.">
+  <meta name="twitter:description" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L. enpresaren cookie politika.">
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-  <link rel="icon" href="../assets/images/home/logo.png" type="image/png">
+  <link rel="icon" href="../assets/images/home/favicon.png" type="image/png">
 </head>
 <body>
+
+  <div class="scroll-progress"></div>
 
   <!-- Header -->
   <header class="header">
@@ -82,38 +84,6 @@
       <h1 class="page-header__title">Cookie Politika</h1>
       <p class="page-header__breadcrumb"><a href="index.html">Hasiera</a> <span>/</span> Cookie Politika</p>
     </div>
-  </section>
-
-  <!-- Content -->
-  <section class="section">
-    <div class="container">
-      <div class="about-content">
-        <div class="about-content__text">
-          <h2>Zer dira cookieak?</h2>
-          <p>Cookieak zure gailuan gordetzen diren testu-fitxategi txikiak dira webgune bat bisitatzen duzunean. Nabigazio-esperientzia hobetzeko eta gunearen erabilerari buruzko informazioa biltzeko erabiltzen dira.</p>
-
-          <h2>Erabiltzen ditugun cookie motak</h2>
-          <h3>Cookie teknikoak</h3>
-          <p>Webgunearen funtzionamendu egokia bermatzeko beharrezkoak dira.</p>
-          <h3>Hobespen cookieak</h3>
-          <p>Webguneari zure hobespenak gogoratzea ahalbidetzen diote, hala nola hizkuntza edo eskualde-konfigurazioa.</p>
-          <h3>Cookie analitikoak</h3>
-          <p>Bisitari kopurua zenbatzea eta erabiltzaileek gunean nola nabigatzen duten aztertzea ahalbidetzen digute.</p>
-
-          <h2>Cookieen kudeaketa</h2>
-          <p>Zure nabigatzailea konfigura dezakezu cookieak baztertzeko. Cookieak desaktibatzen badituzu, gunearen funtzionalitate batzuk kaltetu daitezke.</p>
-          <ul>
-            <li><strong>Chrome:</strong> Ezarpenak > Pribatutasuna eta segurtasuna > Cookieak</li>
-            <li><strong>Firefox:</strong> Aukerak > Pribatutasuna eta segurtasuna</li>
-            <li><strong>Safari:</strong> Hobespenak > Pribatutasuna</li>
-            <li><strong>Edge:</strong> Ezarpenak > Cookieak eta guneen baimenak</li>
-          </ul>
-
-          <h2>Politikaren eguneratzea</h2>
-          <p>Cookie politika hau edozein unetan eguneratu daiteke.</p>
-          <p><strong>Azken eguneratzea:</strong> 2026ko martxoa</p>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -138,10 +108,12 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 Unax Aller. Eskubide guztiak erreserbatuta.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. Eskubide guztiak erreserbatuta.</span>
       </div>
     </div>
   </footer>
+
+  <button class="back-to-top" aria-label="Gora itzuli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
 
   <div class="cookie-banner">
     <div class="cookie-banner__inner">
@@ -153,6 +125,8 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="../assets/js/main.js"></script>
 </body>
 </html>

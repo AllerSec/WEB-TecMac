@@ -30,11 +30,13 @@
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-  <link rel="icon" href="../assets/images/home/logo.png" type="image/png">
+  <link rel="icon" href="../assets/images/home/favicon.png" type="image/png">
 </head>
 <body>
+
+  <div class="scroll-progress"></div>
 
   <header class="header">
     <div class="header__inner">
@@ -78,21 +80,6 @@
       <h1 class="page-header__title">Kontaktua</h1>
       <p class="page-header__breadcrumb"><a href="index.html">Hasiera</a> <span>/</span> Kontaktua</p>
     </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="contact-grid">
-        <div class="contact-info">
-          <div class="contact-card reveal-left">
-            <h3 class="contact-card__title">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Bulego nagusia
-            </h3>
-            <div class="contact-card__line">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-              <span>TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.</span>
-            </div>
             <div class="contact-card__line">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
               <span>Zalain industrialdea 18D<br>31780 Bera (Navarra), España</span>
@@ -119,7 +106,7 @@
     <div class="container">
       <div class="section__header reveal">
         <p class="section__label" style="color:var(--color-accent)">Idatzi iezaguzu</p>
-        <h2 class="section__title" style="color:var(--color-white)">Bidali mezua</h2>
+        <h2 class="section__title" style="color:var(--color-white)">Bidali <span class="keyword-highlight">mezua</span></h2>
         <div class="section__line"></div>
       </div>
       <div class="contact-form-wrapper">
@@ -176,17 +163,24 @@
           <a href="mailto:tecmac@tecmac.es">tecmac@tecmac.es</a><br>España
         </div>
         <div class="footer__links">
-          <a href="enpresa.html">Enpresa</a><a href="ingenieria.html">Ingenieria</a><a href="fabrikazioa.html">Fabrikazioa</a><a href="referencias.html">Bezeroak</a><a href="kontaktua.html">Kontaktua</a>
+          <a href="enpresa.html">Enpresa</a>
+          <a href="ingenieria.html">Ingenieria</a>
+          <a href="fabrikazioa.html">Fabrikazioa</a>
+          <a href="referencias.html">Bezeroak</a>
+          <a href="kontaktua.html">Kontaktua</a>
           <a href="lege-oharra.html">Lege Oharra</a>
           <a href="pribatutasun-politika.html">Pribatutasun Politika</a>
           <a href="cookie-politika.html">Cookie Politika</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 Unax Aller. Eskubide guztiak erreserbatuta.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. Eskubide guztiak erreserbatuta.</span>
       </div>
     </div>
   </footer>
+
+  <button class="back-to-top" aria-label="Gora itzuli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+
   <div class="cookie-banner">
     <div class="cookie-banner__inner">
       <p class="cookie-banner__text">Cookieak erabiltzen ditugu gure webgunean esperientzia onena bermatzeko. Ikusi gure <a href="cookie-politika.html">Cookie Politika</a> informazio gehiagorako.</p>
@@ -197,6 +191,8 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="../assets/js/main.js"></script>
 </body>
 </html>

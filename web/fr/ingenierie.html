@@ -30,11 +30,13 @@
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-  <link rel="icon" href="../assets/images/home/logo.png" type="image/png">
+  <link rel="icon" href="../assets/images/home/favicon.png" type="image/png">
 </head>
 <body>
+
+  <div class="scroll-progress"></div>
 
   <header class="header">
     <div class="header__inner">
@@ -101,7 +103,7 @@
     <div class="container">
       <div class="section__header reveal">
         <p class="section__label">Domaines de travail</p>
-        <h2 class="section__title">Nos spécialités</h2>
+        <h2 class="section__title">Nos <span class="keyword-highlight">spécialités</span></h2>
         <div class="section__line"></div>
       </div>
       <div class="eng-categories">
@@ -121,6 +123,17 @@
             <li>Tuyaux de refroidissement</li>
             <li>Goulottes</li>
           </ul>
+          <div class="eng-category__preview">
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/utillaje/u1.jpg" alt="Outillage - galets de guidage" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/utillaje/u5.jpg" alt="Outillage - barres" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/utillaje/u10.jpg" alt="Outillage - goulottes" loading="lazy">
+            </div>
+          </div>
           <a href="galerie-outillage.html" class="eng-category__btn">
             Voir galerie complète
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -141,6 +154,17 @@
             <li>Systèmes de centrage</li>
             <li>Chariots</li>
           </ul>
+          <div class="eng-category__preview">
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/transporte/t1.jpg" alt="Transfert par chaînes" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/transporte/t4.jpg" alt="Chemins à rouleaux" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/transporte/t7.jpg" alt="Systèmes de centrage" loading="lazy">
+            </div>
+          </div>
           <a href="galerie-transport.html" class="eng-category__btn">
             Voir galerie complète
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -155,6 +179,17 @@
             <h3 class="eng-category__title">Eléments divers</h3>
           </div>
           <p class="eng-category__text">Systèmes de traitement, refroidisseurs, cisailles, arbres de transmission, cylindres hydrauliques et pneumatiques spéciaux, formateurs de boucles, entraîneurs, kick off, tables élévatrices, butées, butées rabattables, butées déplaçables, berceaux fixes et mobiles, tables de chargement de billettes...</p>
+          <div class="eng-category__preview">
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/varios/v1.jpg" alt="Refroidisseurs" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/varios/v5.jpg" alt="Formateurs de boucles" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/varios/v9.jpg" alt="Tables de chargement de billettes" loading="lazy">
+            </div>
+          </div>
           <a href="galerie-divers.html" class="eng-category__btn">
             Voir galerie complète
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -169,6 +204,17 @@
             <h3 class="eng-category__title">Projets clés en main</h3>
           </div>
           <p class="eng-category__text">Nous développons des projets clés en main, depuis l'ingénierie jusqu'à la fabrication et l'installation de la solution pour nos clients.</p>
+          <div class="eng-category__preview">
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/ingenieria.jpg" alt="Projets d'ingénierie clés en main" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/3d.jpg" alt="Projets industriels de conception 3D" loading="lazy">
+            </div>
+            <div class="eng-category__preview-thumb">
+              <img src="../assets/images/ingenieria/utillaje/u20.jpg" alt="Fabrication industrielle" loading="lazy">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -202,14 +248,18 @@
           <a href="mailto:tecmac@tecmac.es">tecmac@tecmac.es</a><br>Espagne
         </div>
         <div class="footer__links">
-          <a href="entreprise.html">Entreprise</a><a href="ingenierie.html">Ingénierie</a><a href="fabrication.html">Fabrication</a><a href="references.html">Références</a><a href="contact.html">Contact</a>
+          <a href="entreprise.html">Entreprise</a>
+          <a href="ingenierie.html">Ingénierie</a>
+          <a href="fabrication.html">Fabrication</a>
+          <a href="references.html">Références</a>
+          <a href="contact.html">Contact</a>
           <a href="mentions-legales.html">Mentions Légales</a>
           <a href="politique-confidentialite.html">Politique de Confidentialité</a>
           <a href="politique-cookies.html">Politique de Cookies</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 Unax Aller. Tous droits réservés.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. Tous droits réservés.</span>
       </div>
     </div>
   </footer>
@@ -222,6 +272,10 @@
     <button class="lightbox__nav lightbox__next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
   </div>
 
+  <button class="back-to-top" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
   <div class="cookie-banner">
     <div class="cookie-banner__inner">
       <p class="cookie-banner__text">Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site. Consultez notre <a href="politique-cookies.html">Politique de Cookies</a> pour plus d'informations.</p>
@@ -232,6 +286,8 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="../assets/js/main.js"></script>
 </body>
 </html>
