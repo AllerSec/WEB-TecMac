@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Page introuvable | Tecmac</title>
+  <title>404 - Page non trouvée | TECMAC</title>
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#1a2a3a">
+  <meta name="theme-color" content="#060a13">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
@@ -106,15 +106,24 @@
 </head>
 <body>
 
+  <a href="#main" class="skip-to-content">Aller au contenu</a>
+
+  <div class="page-loader">
+    <img src="../assets/images/home/logo.png" alt="TECMAC" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__bar-inner"></div></div>
+  </div>
+
   <div class="scroll-progress"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
 
   <!-- Header -->
   <header class="header">
     <div class="header__inner">
       <a href="index.html" class="header__logo">
-        <img src="../assets/images/home/logo.png" alt="Tecmac">
+        <img src="../assets/images/home/logo.png" alt="TECMAC" width="140" height="44">
       </a>
-      <nav class="header__nav">
+      <nav class="header__nav" aria-label="Navigation principale">
         <a href="index.html">Début</a>
         <a href="entreprise.html">Entreprise</a>
         <a href="ingenierie.html">Ingénierie</a>
@@ -122,13 +131,13 @@
         <a href="references.html">Références</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <div class="header__lang">
+      <div class="header__lang" aria-label="Sélecteur de langue">
         <a href="../index.html">ES</a>
         <a href="../eu/index.html">EU</a>
         <a href="../en/index.html">EN</a>
         <a href="index.html" class="active">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menu">
+      <div class="header__toggle" aria-label="Ouvrir le menu" role="button" tabindex="0">
         <span></span><span></span><span></span>
       </div>
     </div>
@@ -136,7 +145,7 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu__overlay"></div>
-  <nav class="mobile-menu">
+  <nav class="mobile-menu" aria-label="Menu mobile">
     <a href="index.html">Début</a>
     <a href="entreprise.html">Entreprise</a>
     <a href="ingenierie.html">Ingénierie</a>
@@ -151,7 +160,7 @@
     </div>
   </nav>
 
-  <main>
+  <main id="main">
     <section class="error-section">
       <svg class="error-section__svg-bg" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <rect x="10" y="10" width="380" height="280" rx="4" stroke="white" stroke-width="2"/>
@@ -176,7 +185,7 @@
       <div class="error-content">
         <p class="error-code">404</p>
         <div class="error-divider"></div>
-        <h1 class="error-title">Page introuvable</h1>
+        <h1 class="error-title">Page non trouvée</h1>
         <p class="error-text">La page que vous recherchez n'existe pas ou a été déplacée.</p>
         <a href="index.html" class="error-btn">
           Retour à l'accueil
@@ -206,7 +215,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. Tous droits réservés.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">unaxaller.com</a>. Tous droits réservés.</span>
       </div>
     </div>
   </footer>

@@ -3,20 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tecmac - Altzairu industriarako ingeniaritza eta fabrikazioa</title>
-  <meta name="description" content="TECMAC - Laminaziorako Ingeniaritza eta Zerbitzu Laguntzaileak. Industria siderurgikorako soluzioetan espezialistak.">
+  <title>TECMAC - Altzairu industriarako ingeniaritza eta fabrikazioa | Bera, Nafarroa</title>
+  <meta name="description" content="TECMAC - Laminaziorako Ingeniaritza eta Zerbitzu Laguntzaileak. Industria siderurgikorako soluzioetan espezialistak. Beran, Nafarroan 30 urte baino gehiagoko esperientzia.">
+  <meta name="keywords" content="ingeniaritza siderurgikoa, beroan laminazioa, industria fabrikazioa, mekanizazioa, tresneria, Bera, Nafarroa, TECMAC">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.">
-  <meta name="theme-color" content="#1a2a3a">
+  <meta name="theme-color" content="#060a13">
+  <meta name="geo.region" content="ES-NA">
+  <meta name="geo.placename" content="Bera, Navarra">
+  <meta name="geo.position" content="43.2775;-1.6875">
+  <meta name="ICBM" content="43.2775, -1.6875">
   <link rel="canonical" href="https://www.tecmac.es/eu/index.html">
-  <link rel="alternate" hreflang="es" href="https://www.tecmac.es/index.html">
+  <link rel="alternate" hreflang="es" href="https://www.tecmac.es/">
   <link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/index.html">
   <link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/index.html">
   <link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tecmac - Altzairu industriarako ingeniaritza eta fabrikazioa">
-  <meta property="og:description" content="TECMAC - Laminaziorako Ingeniaritza eta Zerbitzu Laguntzaileak. Industria siderurgikorako soluzioetan espezialistak.">
+  <meta property="og:title" content="TECMAC - Altzairu industriarako ingeniaritza eta fabrikazioa">
+  <meta property="og:description" content="Ingenieritza eta mekanizazioaren munduan 30 urte baino gehiagoko esperientzia altzairu industriarako soluzio integraletan.">
   <meta property="og:url" content="https://www.tecmac.es/eu/index.html">
   <meta property="og:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <meta property="og:site_name" content="TECMAC">
@@ -25,8 +30,8 @@
   <meta property="og:locale:alternate" content="en_GB">
   <meta property="og:locale:alternate" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tecmac - Altzairu industriarako ingeniaritza eta fabrikazioa">
-  <meta name="twitter:description" content="TECMAC - Laminaziorako Ingeniaritza eta Zerbitzu Laguntzaileak. Industria siderurgikorako soluzioetan espezialistak.">
+  <meta name="twitter:title" content="TECMAC - Altzairu industriarako ingeniaritza eta fabrikazioa">
+  <meta name="twitter:description" content="Ingenieritza eta mekanizazioaren munduan 30 urte baino gehiagoko esperientzia altzairu industriarako soluzio integraletan.">
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,15 +41,24 @@
 </head>
 <body>
 
+  <a href="#main" class="skip-to-content">Edukira joan</a>
+
+  <div class="page-loader">
+    <img src="../assets/images/home/logo.png" alt="TECMAC" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__bar-inner"></div></div>
+  </div>
+
   <div class="scroll-progress"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
 
   <!-- Header -->
   <header class="header">
     <div class="header__inner">
       <a href="index.html" class="header__logo">
-        <img src="../assets/images/home/logo.png" alt="Tecmac">
+        <img src="../assets/images/home/logo.png" alt="TECMAC - Ingeniaritza eta Laminazioa" width="140" height="44">
       </a>
-      <nav class="header__nav">
+      <nav class="header__nav" aria-label="Nabigazio nagusia">
         <a href="index.html" class="active">Hasiera</a>
         <a href="enpresa.html">Enpresa</a>
         <a href="ingenieria.html">Ingenieria</a>
@@ -52,13 +66,13 @@
         <a href="referencias.html">Bezeroak</a>
         <a href="kontaktua.html">Kontaktua</a>
       </nav>
-      <div class="header__lang">
+      <div class="header__lang" aria-label="Hizkuntza">
         <a href="../index.html">ES</a>
         <a href="index.html" class="active">EU</a>
         <a href="../en/index.html">EN</a>
         <a href="../fr/index.html">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menua">
+      <div class="header__toggle" aria-label="Menua" role="button" tabindex="0">
         <span></span><span></span><span></span>
       </div>
     </div>
@@ -66,7 +80,7 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu__overlay"></div>
-  <nav class="mobile-menu">
+  <nav class="mobile-menu" aria-label="Menu mugikorra">
     <a href="index.html" class="active">Hasiera</a>
     <a href="enpresa.html">Enpresa</a>
     <a href="ingenieria.html">Ingenieria</a>
@@ -82,12 +96,14 @@
   </nav>
 
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero" id="main">
+    <div class="hero__particles"></div>
     <div class="hero__slider">
       <div class="hero__slide active" style="background-image: url('../assets/images/home/151026_073.jpg')"></div>
       <div class="hero__slide" style="background-image: url('../assets/images/home/panel.jpg')"></div>
       <div class="hero__slide" style="background-image: url('../assets/images/home/tren-trio.jpg')"></div>
     </div>
+    <div class="hero__overlay"></div>
     <div class="hero__content">
       <p class="hero__tagline">Tecmac</p>
       <h1 class="hero__title">Altzairu industriarako ingeniaritza eta fabrikazioa</h1>
@@ -101,11 +117,20 @@
       <span>Scroll</span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
     </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__label">Gure balioak</p>
+        <h2 class="section__title">Zergatik aukeratu <span class="keyword-highlight">gaituzu</span></h2>
+        <div class="section__line"></div>
       </div>
       <div class="features">
         <div class="feature-card reveal stagger-1">
           <div class="feature-card__bg">
-            <img src="../assets/images/home/experiencia.jpg" alt="Tecmac-eko taldeak industrian 30 urte baino gehiagoko esperientzia du">
+            <img src="../assets/images/home/experiencia.jpg" alt="Tecmac-eko taldeak industrian 30 urte baino gehiagoko esperientzia du" loading="lazy" width="400" height="300">
           </div>
           <div class="feature-card__overlay"></div>
           <div class="feature-card__content">
@@ -119,7 +144,7 @@
         </div>
         <div class="feature-card reveal stagger-2">
           <div class="feature-card__bg">
-            <img src="../assets/images/home/flexibilidad.jpg" alt="Proiektu txikietan eta handietara moldatzen den taldea">
+            <img src="../assets/images/home/flexibilidad.jpg" alt="Proiektu txikietan eta handietara moldatzen den taldea" loading="lazy" width="400" height="300">
           </div>
           <div class="feature-card__overlay"></div>
           <div class="feature-card__content">
@@ -133,7 +158,7 @@
         </div>
         <div class="feature-card reveal stagger-3">
           <div class="feature-card__bg">
-            <img src="../assets/images/home/especializacion.jpg" alt="Industria siderurgikorako soluzioetan espezializatutako ingeniaritza">
+            <img src="../assets/images/home/especializacion.jpg" alt="Industria siderurgikorako soluzioetan espezializatutako ingeniaritza" loading="lazy" width="400" height="300">
           </div>
           <div class="feature-card__overlay"></div>
           <div class="feature-card__content">
@@ -193,12 +218,14 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. Eskubide guztiak erreserbatuta.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">unaxaller.com</a>. Eskubide guztiak erreserbatuta.</span>
       </div>
     </div>
   </footer>
 
-  <button class="back-to-top" aria-label="Gora itzuli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <button class="back-to-top" aria-label="Gora itzuli">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
 
   <div class="cookie-banner">
     <div class="cookie-banner__inner">
@@ -228,7 +255,31 @@
       "postalCode": "31780",
       "addressCountry": "ES"
     },
-    "description": "Laminaziorako Ingeniaritza eta Zerbitzu Laguntzaileak. Industria siderurgikorako soluzioetan espezialistak."
+    "description": "Laminaziorako Ingeniaritza eta Zerbitzu Laguntzaileak. Industria siderurgikorako soluzioetan espezialistak.",
+    "foundingDate": "1994",
+    "knowsAbout": ["Ingeniaritza siderurgikoa", "Beroan laminazioa", "Industria mekanizazioa", "Tresneria fabrikazioa", "3D diseinu industriala"],
+    "areaServed": { "@type": "GeoShape", "name": "Europa" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "TECMAC",
+    "image": "https://www.tecmac.es/assets/images/home/logo.png",
+    "telephone": "+34948631002",
+    "email": "tecmac@tecmac.es",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Zalain industrialdea 18D",
+      "addressLocality": "Bera",
+      "addressRegion": "Navarra",
+      "postalCode": "31780",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": "43.2775", "longitude": "-1.6875" },
+    "url": "https://www.tecmac.es",
+    "priceRange": "$$$$"
   }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

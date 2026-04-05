@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ingeniería - Tecmac</title>
+  <title>Ingeniería - TECMAC | Diseño y Simulación 3D para Laminación en Caliente</title>
   <meta name="description" content="Utilizando herramientas de diseño y simulación 3D ofrecemos una amplia gama de productos para la laminación en caliente.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.">
-  <meta name="theme-color" content="#1a2a3a">
+  <meta name="theme-color" content="#060a13">
   <link rel="canonical" href="https://www.tecmac.es/es/ingenieria.html">
   <link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/ingenieria.html">
   <link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/ingenieria.html">
@@ -15,7 +15,7 @@
   <link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/ingenierie.html">
   <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/ingenieria.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Ingeniería - Tecmac">
+  <meta property="og:title" content="Ingeniería - TECMAC | Diseño y Simulación 3D para Laminación en Caliente">
   <meta property="og:description" content="Utilizando herramientas de diseño y simulación 3D ofrecemos una amplia gama de productos para la laminación en caliente.">
   <meta property="og:url" content="https://www.tecmac.es/es/ingenieria.html">
   <meta property="og:image" content="https://www.tecmac.es/assets/images/home/logo.png">
@@ -25,7 +25,7 @@
   <meta property="og:locale:alternate" content="en_GB">
   <meta property="og:locale:alternate" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ingeniería - Tecmac">
+  <meta name="twitter:title" content="Ingeniería - TECMAC | Diseño y Simulación 3D para Laminación en Caliente">
   <meta name="twitter:description" content="Utilizando herramientas de diseño y simulación 3D ofrecemos una amplia gama de productos para la laminación en caliente.">
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,12 +36,24 @@
 </head>
 <body>
 
-  <div class="scroll-progress"></div>
+  <a href="#main" class="skip-to-content">Ir al contenido</a>
 
+  <div class="page-loader">
+    <img src="../assets/images/home/logo.png" alt="TECMAC" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__bar-inner"></div></div>
+  </div>
+
+  <div class="scroll-progress"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Header -->
   <header class="header">
     <div class="header__inner">
-      <a href="../index.html" class="header__logo"><img src="../assets/images/home/logo.png" alt="Tecmac"></a>
-      <nav class="header__nav">
+      <a href="../index.html" class="header__logo">
+        <img src="../assets/images/home/logo.png" alt="TECMAC" width="140" height="44">
+      </a>
+      <nav class="header__nav" aria-label="Navegación principal">
         <a href="../index.html">Inicio</a>
         <a href="empresa.html">Empresa</a>
         <a href="ingenieria.html" class="active">Ingeniería</a>
@@ -49,17 +61,17 @@
         <a href="referencias.html">Referencias</a>
         <a href="contacto.html">Contacto</a>
       </nav>
-      <div class="header__lang">
+      <div class="header__lang" aria-label="Idioma">
         <a href="ingenieria.html" class="active">ES</a>
         <a href="../eu/ingenieria.html">EU</a>
         <a href="../en/engineering.html">EN</a>
         <a href="../fr/ingenierie.html">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menú"><span></span><span></span><span></span></div>
+      <div class="header__toggle" aria-label="Menú" role="button" tabindex="0"><span></span><span></span><span></span></div>
     </div>
   </header>
   <div class="mobile-menu__overlay"></div>
-  <nav class="mobile-menu">
+  <nav class="mobile-menu" aria-label="Menú móvil">
     <a href="../index.html">Inicio</a>
     <a href="empresa.html">Empresa</a>
     <a href="ingenieria.html" class="active">Ingeniería</a>
@@ -74,6 +86,7 @@
     </div>
   </nav>
 
+  <!-- Page Header -->
   <section class="page-header">
     <div class="page-header__bg" style="background-image: url('../assets/images/ingenieria/header_ingenieria.jpg')"></div>
     <div class="page-header__content">
@@ -83,142 +96,144 @@
   </section>
 
   <!-- Intro -->
-  <section class="section">
-    <div class="container">
-      <div class="about-content">
-        <div class="about-content__text reveal-left">
-          <p>Utilizando herramientas de diseño y simulación 3D ofrecemos una amplia gama de productos para un sector muy concreto como es la laminación en caliente, haciendo incapie en el utillaje de todo tipo.</p>
-          <p>Nuestra principal ocupación es el desarrollo de proyectos de maquinaria a medida, de diferentes escalas de magnitud, desde el diseño de un tren de laminación al diseño de un simple componente de una máquina.</p>
-          <p>Debido a la gran experiencia acumulada en la realización de multiples proyectos a medida, actualmente ofrecemos con éxito nuestros servicios a sectores diferentes al siderúrgico, como la automoción.</p>
-        </div>
-        <div class="about-content__image reveal-right">
-          <img src="../assets/images/ingenieria/3d.jpg" alt="Diseño 3D - Tecmac" loading="lazy">
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-content__text reveal-left">
+            <p>Utilizando herramientas de diseño y simulación 3D ofrecemos una amplia gama de productos para un sector muy concreto como es la laminación en caliente, haciendo incapie en el utillaje de todo tipo.</p>
+            <p>Nuestra principal ocupación es el desarrollo de proyectos de maquinaria a medida, de diferentes escalas de magnitud, desde el diseño de un tren de laminación al diseño de un simple componente de una máquina.</p>
+            <p>Debido a la gran experiencia acumulada en la realización de multiples proyectos a medida, actualmente ofrecemos con éxito nuestros servicios a sectores diferentes al siderúrgico, como la automoción.</p>
+          </div>
+          <div class="about-content__image reveal-right">
+            <img src="../assets/images/ingenieria/3d.jpg" alt="Diseño 3D - TECMAC" loading="lazy">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Categories -->
-  <section class="section section--gray">
-    <div class="container">
-      <div class="section__header reveal">
-        <p class="section__label">Áreas de trabajo</p>
-        <h2 class="section__title">Nuestras <span class="keyword-highlight">especialidades</span></h2>
-        <div class="section__line"></div>
+    <!-- Categories -->
+    <section class="section section--gray">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="section__label">Áreas de trabajo</p>
+          <h2 class="section__title">Nuestras <span class="keyword-highlight">especialidades</span></h2>
+          <div class="section__line"></div>
+        </div>
+        <div class="eng-categories">
+          <!-- Utillaje -->
+          <div class="eng-category reveal stagger-1">
+            <div class="eng-category__header">
+              <div class="eng-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="eng-category__title">Utillaje de laminación en caliente</h3>
+            </div>
+            <p class="eng-category__text">Para trenes de redondo, perfiles estructurales, de raíles, perfiles especiales, trenes en continuo, en línea y tándem.</p>
+            <ul class="eng-category__list">
+              <li>Guías de entrada y salida de rodillos</li>
+              <li>Guías de entrada y salida de fricción</li>
+              <li>Barrones</li>
+              <li>Tubos refrigeración cilindros de laminación</li>
+              <li>Canaletas</li>
+            </ul>
+            <div class="eng-category__preview">
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/utillaje/u1.jpg" alt="Utillaje laminación - guías" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/utillaje/u5.jpg" alt="Utillaje laminación - barrones" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/utillaje/u10.jpg" alt="Utillaje laminación - canaletas" loading="lazy">
+              </div>
+            </div>
+            <a href="galeria-utillaje.html" class="eng-category__btn">
+              Ver galería completa
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+          <!-- Transporte -->
+          <div class="eng-category reveal stagger-2">
+            <div class="eng-category__header">
+              <div class="eng-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="22" height="12" rx="2" ry="2"/><path d="M1 10h22"/></svg>
+              </div>
+              <h3 class="eng-category__title">Elementos de transporte, pesaje y empaquetado</h3>
+            </div>
+            <ul class="eng-category__list">
+              <li>Transferidor de cadenas</li>
+              <li>Caminos de rodillos</li>
+              <li>Manipuladores</li>
+              <li>Sistemas de centraje</li>
+              <li>Carros cambios cilindro</li>
+            </ul>
+            <div class="eng-category__preview">
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/transporte/t1.jpg" alt="Transferidor de cadenas" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/transporte/t4.jpg" alt="Caminos de rodillos" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/transporte/t7.jpg" alt="Sistemas de centraje" loading="lazy">
+              </div>
+            </div>
+            <a href="galeria-transporte.html" class="eng-category__btn">
+              Ver galería completa
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+          <!-- Varios -->
+          <div class="eng-category reveal stagger-3">
+            <div class="eng-category__header">
+              <div class="eng-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              </div>
+              <h3 class="eng-category__title">Elementos varios</h3>
+            </div>
+            <p class="eng-category__text">Sistema de tratamiento de barras corrugadas, enfriaderos, empujadores, cizallas, cajas de laminación, reductoras, árboles de transmisión, cilindros, hidráulicos y neumáticos especiales, formadores de bucles, arrastradores, kick off, tableros elevadores, topes, topes abatibles, topes desplazables, cunas fijas y móviles, mesas de carga palanquilla...</p>
+            <div class="eng-category__preview">
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/varios/v1.jpg" alt="Enfriaderos y topes" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/varios/v5.jpg" alt="Formadores de bucles" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/varios/v9.jpg" alt="Mesas de carga palanquilla" loading="lazy">
+              </div>
+            </div>
+            <a href="galeria-varios.html" class="eng-category__btn">
+              Ver galería completa
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+          <!-- Llave en mano -->
+          <div class="eng-category reveal stagger-4">
+            <div class="eng-category__header">
+              <div class="eng-category__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+              </div>
+              <h3 class="eng-category__title">Proyectos llave en mano</h3>
+            </div>
+            <p class="eng-category__text">Desarrollamos proyectos llave en mano, desde la ingeniería, hasta la fabricación e implantación de la solución para nuestros clientes.</p>
+            <div class="eng-category__preview">
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/ingenieria.jpg" alt="Proyectos llave en mano - ingeniería" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/3d.jpg" alt="Diseño 3D proyectos industriales" loading="lazy">
+              </div>
+              <div class="eng-category__preview-thumb">
+                <img src="../assets/images/ingenieria/utillaje/u20.jpg" alt="Fabricación e implantación industrial" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="eng-categories">
-        <!-- Utillaje -->
-        <div class="eng-category reveal stagger-1">
-          <div class="eng-category__header">
-            <div class="eng-category__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-            </div>
-            <h3 class="eng-category__title">Utillaje de laminación en caliente</h3>
-          </div>
-          <p class="eng-category__text">Para trenes de redondo, perfiles estructurales, de raíles, perfiles especiales, trenes en continuo, en línea y tándem.</p>
-          <ul class="eng-category__list">
-            <li>Guías de entrada y salida de rodillos</li>
-            <li>Guías de entrada y salida de fricción</li>
-            <li>Barrones</li>
-            <li>Tubos refrigeración cilindros de laminación</li>
-            <li>Canaletas</li>
-          </ul>
-          <div class="eng-category__preview">
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/utillaje/u1.jpg" alt="Utillaje laminación - guías" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/utillaje/u5.jpg" alt="Utillaje laminación - barrones" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/utillaje/u10.jpg" alt="Utillaje laminación - canaletas" loading="lazy">
-            </div>
-          </div>
-          <a href="galeria-utillaje.html" class="eng-category__btn">
-            Ver galería completa
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-        <!-- Transporte -->
-        <div class="eng-category reveal stagger-2">
-          <div class="eng-category__header">
-            <div class="eng-category__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="22" height="12" rx="2" ry="2"/><path d="M1 10h22"/></svg>
-            </div>
-            <h3 class="eng-category__title">Elementos de transporte, pesaje y empaquetado</h3>
-          </div>
-          <ul class="eng-category__list">
-            <li>Transferidor de cadenas</li>
-            <li>Caminos de rodillos</li>
-            <li>Manipuladores</li>
-            <li>Sistemas de centraje</li>
-            <li>Carros cambios cilindro</li>
-          </ul>
-          <div class="eng-category__preview">
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/transporte/t1.jpg" alt="Transferidor de cadenas" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/transporte/t4.jpg" alt="Caminos de rodillos" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/transporte/t7.jpg" alt="Sistemas de centraje" loading="lazy">
-            </div>
-          </div>
-          <a href="galeria-transporte.html" class="eng-category__btn">
-            Ver galería completa
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-        <!-- Varios -->
-        <div class="eng-category reveal stagger-3">
-          <div class="eng-category__header">
-            <div class="eng-category__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-            </div>
-            <h3 class="eng-category__title">Elementos varios</h3>
-          </div>
-          <p class="eng-category__text">Sistema de tratamiento de barras corrugadas, enfriaderos, empujadores, cizallas, cajas de laminación, reductoras, árboles de transmisión, cilindros, hidráulicos y neumáticos especiales, formadores de bucles, arrastradores, kick off, tableros elevadores, topes, topes abatibles, topes desplazables, cunas fijas y móviles, mesas de carga palanquilla...</p>
-          <div class="eng-category__preview">
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/varios/v1.jpg" alt="Enfriaderos y topes" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/varios/v5.jpg" alt="Formadores de bucles" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/varios/v9.jpg" alt="Mesas de carga palanquilla" loading="lazy">
-            </div>
-          </div>
-          <a href="galeria-varios.html" class="eng-category__btn">
-            Ver galería completa
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-        </div>
-        <!-- Llave en mano -->
-        <div class="eng-category reveal stagger-4">
-          <div class="eng-category__header">
-            <div class="eng-category__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
-            </div>
-            <h3 class="eng-category__title">Proyectos llave en mano</h3>
-          </div>
-          <p class="eng-category__text">Desarrollamos proyectos llave en mano, desde la ingeniería, hasta la fabricación e implantación de la solución para nuestros clientes.</p>
-          <div class="eng-category__preview">
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/ingenieria.jpg" alt="Proyectos llave en mano - ingeniería" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/3d.jpg" alt="Diseño 3D proyectos industriales" loading="lazy">
-            </div>
-            <div class="eng-category__preview-thumb">
-              <img src="../assets/images/ingenieria/utillaje/u20.jpg" alt="Fabricación e implantación industrial" loading="lazy">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
@@ -241,7 +256,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. Todos los derechos reservados.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">unaxaller.com</a>. Todos los derechos reservados.</span>
       </div>
     </div>
   </footer>

@@ -3,22 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tecmac - Engineering and manufacturing for the Steel Industry</title>
-  <meta name="description" content="TECMAC - Hot Rolling Mill Engineering and Auxiliary Services. Specialists in solutions for the steel industry.">
+  <title>TECMAC - Engineering and Manufacturing for the Steel Industry | Bera, Navarra</title>
+  <meta name="description" content="TECMAC - Hot Rolling Mill Engineering and Auxiliary Services. Over 30 years of experience in engineering, machining and integral solutions for the steel industry.">
+  <meta name="keywords" content="steel engineering, hot rolling mill, industrial manufacturing, machining, tooling, Bera, Navarra, TECMAC">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.">
-  <meta name="theme-color" content="#1a2a3a">
+  <meta name="theme-color" content="#060a13">
   <meta name="geo.region" content="ES-NA">
   <meta name="geo.placename" content="Bera, Navarra">
+  <meta name="geo.position" content="43.2775;-1.6875">
+  <meta name="ICBM" content="43.2775, -1.6875">
   <link rel="canonical" href="https://www.tecmac.es/en/index.html">
-  <link rel="alternate" hreflang="es" href="https://www.tecmac.es/index.html">
+  <link rel="alternate" hreflang="es" href="https://www.tecmac.es/">
   <link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/index.html">
   <link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/index.html">
   <link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tecmac - Engineering and manufacturing for the Steel Industry">
-  <meta property="og:description" content="TECMAC - Hot Rolling Mill Engineering and Auxiliary Services. Specialists in solutions for the steel industry.">
+  <meta property="og:title" content="TECMAC - Engineering and Manufacturing for the Steel Industry">
+  <meta property="og:description" content="Over 30 years of experience in engineering, machining and integral solutions for the steel industry.">
   <meta property="og:url" content="https://www.tecmac.es/en/index.html">
   <meta property="og:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <meta property="og:site_name" content="TECMAC">
@@ -27,8 +30,8 @@
   <meta property="og:locale:alternate" content="eu_ES">
   <meta property="og:locale:alternate" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Tecmac - Engineering and manufacturing for the Steel Industry">
-  <meta name="twitter:description" content="TECMAC - Hot Rolling Mill Engineering and Auxiliary Services. Specialists in solutions for the steel industry.">
+  <meta name="twitter:title" content="TECMAC - Engineering and Manufacturing for the Steel Industry">
+  <meta name="twitter:description" content="Over 30 years of experience in engineering, machining and integral solutions for the steel industry.">
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,15 +41,27 @@
 </head>
 <body>
 
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <img src="../assets/images/home/logo.png" alt="TECMAC" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__bar-inner"></div></div>
+  </div>
+
   <div class="scroll-progress"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
 
   <!-- Header -->
   <header class="header">
     <div class="header__inner">
       <a href="index.html" class="header__logo">
-        <img src="../assets/images/home/logo.png" alt="Tecmac">
+        <img src="../assets/images/home/logo.png" alt="TECMAC - Engineering and Rolling Mill Services" width="140" height="44">
       </a>
-      <nav class="header__nav">
+      <nav class="header__nav" aria-label="Main navigation">
         <a href="index.html" class="active">Home</a>
         <a href="company.html">Company</a>
         <a href="engineering.html">Engineering</a>
@@ -54,13 +69,13 @@
         <a href="references.html">Clients</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <div class="header__lang">
+      <div class="header__lang" aria-label="Language selector">
         <a href="../index.html">ES</a>
         <a href="../eu/index.html">EU</a>
         <a href="index.html" class="active">EN</a>
         <a href="../fr/index.html">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menu">
+      <div class="header__toggle" aria-label="Open menu" role="button" tabindex="0">
         <span></span><span></span><span></span>
       </div>
     </div>
@@ -68,7 +83,7 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu__overlay"></div>
-  <nav class="mobile-menu">
+  <nav class="mobile-menu" aria-label="Mobile menu">
     <a href="index.html" class="active">Home</a>
     <a href="company.html">Company</a>
     <a href="engineering.html">Engineering</a>
@@ -84,12 +99,14 @@
   </nav>
 
   <!-- Hero -->
-  <section class="hero">
+  <section class="hero" id="main">
+    <div class="hero__particles"></div>
     <div class="hero__slider">
       <div class="hero__slide active" style="background-image: url('../assets/images/home/151026_073.jpg')"></div>
       <div class="hero__slide" style="background-image: url('../assets/images/home/panel.jpg')"></div>
       <div class="hero__slide" style="background-image: url('../assets/images/home/tren-trio.jpg')"></div>
     </div>
+    <div class="hero__overlay"></div>
     <div class="hero__content">
       <p class="hero__tagline">Tecmac</p>
       <h1 class="hero__title">Engineering and manufacturing for the Steel Industry</h1>
@@ -116,7 +133,7 @@
       <div class="features">
         <div class="feature-card reveal stagger-1">
           <div class="feature-card__bg">
-            <img src="../assets/images/home/experiencia.jpg" alt="Tecmac team with over 30 years of engineering experience in the steel industry">
+            <img src="../assets/images/home/experiencia.jpg" alt="Tecmac team with over 30 years of engineering experience in the steel industry" loading="lazy" width="400" height="300">
           </div>
           <div class="feature-card__overlay"></div>
           <div class="feature-card__content">
@@ -130,7 +147,7 @@
         </div>
         <div class="feature-card reveal stagger-2">
           <div class="feature-card__bg">
-            <img src="../assets/images/home/flexibilidad.jpg" alt="Tecmac adapting to small and large-scale engineering projects">
+            <img src="../assets/images/home/flexibilidad.jpg" alt="Tecmac adapting to small and large-scale engineering projects" loading="lazy" width="400" height="300">
           </div>
           <div class="feature-card__overlay"></div>
           <div class="feature-card__content">
@@ -144,7 +161,7 @@
         </div>
         <div class="feature-card reveal stagger-3">
           <div class="feature-card__bg">
-            <img src="../assets/images/home/especializacion.jpg" alt="Specialized engineering solutions for the Hot Rolling Mill industry">
+            <img src="../assets/images/home/especializacion.jpg" alt="Specialized engineering solutions for the Hot Rolling Mill industry" loading="lazy" width="400" height="300">
           </div>
           <div class="feature-card__overlay"></div>
           <div class="feature-card__content">
@@ -161,20 +178,20 @@
   </section>
 
   <!-- Stats -->
-  <section class="section section--dark" style="position:relative;">
+  <section class="section section--dark">
     <div class="container">
       <div class="stats">
-        <div class="stat-item reveal stagger-1">
-          <p class="stat-item__number"><span class="counter" data-target="30">0</span>+</p>
-          <p class="stat-item__label">Years of experience</p>
+        <div class="stat reveal stagger-1">
+          <span class="stat__number"><span class="counter" data-target="30">0</span>+</span>
+          <span class="stat__label">Years of experience</span>
         </div>
-        <div class="stat-item reveal stagger-2">
-          <p class="stat-item__number"><span class="counter" data-target="500">0</span>+</p>
-          <p class="stat-item__label">Projects completed</p>
+        <div class="stat reveal stagger-2">
+          <span class="stat__number"><span class="counter" data-target="500">0</span>+</span>
+          <span class="stat__label">Projects completed</span>
         </div>
-        <div class="stat-item reveal stagger-3">
-          <p class="stat-item__number"><span class="counter" data-target="10">0</span>+</p>
-          <p class="stat-item__label">International clients</p>
+        <div class="stat reveal stagger-3">
+          <span class="stat__number"><span class="counter" data-target="10">0</span>+</span>
+          <span class="stat__label">International clients</span>
         </div>
       </div>
     </div>
@@ -204,12 +221,14 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. All rights reserved.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">unaxaller.com</a>. All rights reserved.</span>
       </div>
     </div>
   </footer>
 
-  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
 
   <div class="cookie-banner">
     <div class="cookie-banner__inner">
@@ -239,7 +258,63 @@
       "postalCode": "31780",
       "addressCountry": "ES"
     },
-    "description": "Hot Rolling Mill Engineering and Auxiliary Services. Specialists in solutions for the steel industry."
+    "description": "Hot Rolling Mill Engineering and Auxiliary Services. Specialists in solutions for the steel industry.",
+    "foundingDate": "1994",
+    "knowsAbout": ["Steel engineering", "Hot rolling mill", "Industrial machining", "Tooling manufacturing", "3D industrial design"],
+    "areaServed": { "@type": "GeoShape", "name": "Europe" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "TECMAC",
+    "image": "https://www.tecmac.es/assets/images/home/logo.png",
+    "telephone": "+34948631002",
+    "email": "tecmac@tecmac.es",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Zalain industrialdea 18D",
+      "addressLocality": "Bera",
+      "addressRegion": "Navarra",
+      "postalCode": "31780",
+      "addressCountry": "ES"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": "43.2775", "longitude": "-1.6875" },
+    "url": "https://www.tecmac.es",
+    "priceRange": "$$$$"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What services does TECMAC offer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "TECMAC offers design and manufacturing of hot rolling mill tooling, turnkey project engineering, transport, weighing and packaging elements, and spare parts for the steel industry."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is TECMAC located?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "TECMAC is located at Zalain industrialdea 18D, 31780 Bera (Navarra), Spain."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many years of experience does TECMAC have?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "TECMAC has over 30 years of experience in engineering and machining for the steel industry."
+        }
+      }
+    ]
   }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Página no encontrada | Tecmac</title>
+  <title>404 - Página no encontrada | TECMAC</title>
   <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#060a13">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
@@ -12,18 +13,31 @@
   <link rel="icon" href="assets/images/home/favicon.png" type="image/png">
 </head>
 <body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
   <div class="error-page">
-    <div class="error-page__content">
-      <p class="error-page__code">404</p>
-      <h1 class="error-page__title">Página no encontrada</h1>
-      <p class="error-page__text">La página que buscas no existe o ha sido movida.</p>
-      <a href="index.html" class="error-page__btn">
-        Volver al inicio
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-      </a>
-    </div>
+    <p class="error-page__code">404</p>
+    <h1 class="error-page__title">Página no encontrada</h1>
+    <p class="error-page__text">La página que buscas no existe o ha sido movida.</p>
+    <a href="index.html" class="error-page__btn">
+      Volver al inicio
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    // Language detection for 404 - redirect to correct language 404 if possible
+    const lang = (navigator.language || '').toLowerCase();
+    const path = window.location.pathname;
+    if (path.startsWith('/en/')) { /* already in en */ }
+    else if (path.startsWith('/fr/')) { /* already in fr */ }
+    else if (path.startsWith('/eu/')) { /* already in eu */ }
+    else if (lang.startsWith('en')) window.location.replace('/en/404.html');
+    else if (lang.startsWith('fr')) window.location.replace('/fr/404.html');
+    // euskara never default
+  </script>
 </body>
 </html>

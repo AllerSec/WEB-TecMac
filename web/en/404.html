@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Page not found | Tecmac</title>
+  <title>404 - Page Not Found | TECMAC</title>
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#1a2a3a">
+  <meta name="theme-color" content="#060a13">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
@@ -106,15 +106,27 @@
 </head>
 <body>
 
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <img src="../assets/images/home/logo.png" alt="TECMAC" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__bar-inner"></div></div>
+  </div>
+
   <div class="scroll-progress"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
 
   <!-- Header -->
   <header class="header">
     <div class="header__inner">
       <a href="index.html" class="header__logo">
-        <img src="../assets/images/home/logo.png" alt="Tecmac">
+        <img src="../assets/images/home/logo.png" alt="TECMAC" width="140" height="44">
       </a>
-      <nav class="header__nav">
+      <nav class="header__nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="company.html">Company</a>
         <a href="engineering.html">Engineering</a>
@@ -122,13 +134,13 @@
         <a href="references.html">Clients</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <div class="header__lang">
+      <div class="header__lang" aria-label="Language selector">
         <a href="../index.html">ES</a>
         <a href="../eu/index.html">EU</a>
         <a href="index.html" class="active">EN</a>
         <a href="../fr/index.html">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menu">
+      <div class="header__toggle" aria-label="Open menu" role="button" tabindex="0">
         <span></span><span></span><span></span>
       </div>
     </div>
@@ -136,7 +148,7 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu__overlay"></div>
-  <nav class="mobile-menu">
+  <nav class="mobile-menu" aria-label="Mobile menu">
     <a href="index.html">Home</a>
     <a href="company.html">Company</a>
     <a href="engineering.html">Engineering</a>
@@ -151,7 +163,7 @@
     </div>
   </nav>
 
-  <main>
+  <main id="main">
     <section class="error-section">
       <svg class="error-section__svg-bg" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <rect x="10" y="10" width="380" height="280" rx="4" stroke="white" stroke-width="2"/>
@@ -186,6 +198,7 @@
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -206,12 +219,14 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. All rights reserved.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">unaxaller.com</a>. All rights reserved.</span>
       </div>
     </div>
   </footer>
 
-  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
 
   <div class="cookie-banner">
     <div class="cookie-banner__inner">

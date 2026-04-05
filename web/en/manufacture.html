@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manufacture - Tecmac</title>
-  <meta name="description" content="Integral manufacturing service for in-house designed and externally designed pieces for the steel industry.">
+  <title>TECMAC - Manufacture | Integral Manufacturing Service for Steel Industry</title>
+  <meta name="description" content="Integral manufacturing service for in-house designed and externally designed pieces for the steel industry. High-quality machining and up-to-date machinery.">
+  <meta name="keywords" content="manufacturing, machining, steel industry, industrial fabrication, CNC, TECMAC">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.">
-  <meta name="theme-color" content="#1a2a3a">
+  <meta name="theme-color" content="#060a13">
   <meta name="geo.region" content="ES-NA">
   <meta name="geo.placename" content="Bera, Navarra">
+  <meta name="geo.position" content="43.2775;-1.6875">
+  <meta name="ICBM" content="43.2775, -1.6875">
   <link rel="canonical" href="https://www.tecmac.es/en/manufacture.html">
   <link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/fabricacion.html">
   <link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/fabrikazioa.html">
@@ -17,7 +20,7 @@
   <link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/fabrication.html">
   <link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/fabricacion.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Manufacture - Tecmac">
+  <meta property="og:title" content="TECMAC - Manufacture | Integral Manufacturing Service">
   <meta property="og:description" content="Integral manufacturing service for in-house designed and externally designed pieces for the steel industry.">
   <meta property="og:url" content="https://www.tecmac.es/en/manufacture.html">
   <meta property="og:image" content="https://www.tecmac.es/assets/images/home/logo.png">
@@ -27,7 +30,7 @@
   <meta property="og:locale:alternate" content="eu_ES">
   <meta property="og:locale:alternate" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Manufacture - Tecmac">
+  <meta name="twitter:title" content="TECMAC - Manufacture | Integral Manufacturing Service">
   <meta name="twitter:description" content="Integral manufacturing service for in-house designed and externally designed pieces for the steel industry.">
   <meta name="twitter:image" content="https://www.tecmac.es/assets/images/home/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,12 +41,27 @@
 </head>
 <body>
 
+  <a href="#main" class="skip-to-content">Skip to content</a>
+
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <img src="../assets/images/home/logo.png" alt="TECMAC" class="page-loader__logo">
+    <div class="page-loader__bar"><div class="page-loader__bar-inner"></div></div>
+  </div>
+
   <div class="scroll-progress"></div>
 
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Header -->
   <header class="header">
     <div class="header__inner">
-      <a href="index.html" class="header__logo"><img src="../assets/images/home/logo.png" alt="Tecmac"></a>
-      <nav class="header__nav">
+      <a href="index.html" class="header__logo">
+        <img src="../assets/images/home/logo.png" alt="TECMAC" width="140" height="44">
+      </a>
+      <nav class="header__nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="company.html">Company</a>
         <a href="engineering.html">Engineering</a>
@@ -51,17 +69,21 @@
         <a href="references.html">Clients</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <div class="header__lang">
+      <div class="header__lang" aria-label="Language selector">
         <a href="../es/fabricacion.html">ES</a>
         <a href="../eu/fabrikazioa.html">EU</a>
         <a href="manufacture.html" class="active">EN</a>
         <a href="../fr/fabrication.html">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menu"><span></span><span></span><span></span></div>
+      <div class="header__toggle" aria-label="Open menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
     </div>
   </header>
+
+  <!-- Mobile Menu -->
   <div class="mobile-menu__overlay"></div>
-  <nav class="mobile-menu">
+  <nav class="mobile-menu" aria-label="Mobile menu">
     <a href="index.html">Home</a>
     <a href="company.html">Company</a>
     <a href="engineering.html">Engineering</a>
@@ -76,8 +98,10 @@
     </div>
   </nav>
 
-  <section class="page-header">
+  <!-- Page Header -->
+  <section class="page-header" id="main">
     <div class="page-header__bg" style="background-image: url('../assets/images/fabricacion/151026_216.jpg')"></div>
+    <div class="page-header__overlay"></div>
     <div class="page-header__content">
       <h1 class="page-header__title">Manufacture</h1>
       <p class="page-header__breadcrumb"><a href="index.html">Home</a> <span>/</span> Manufacture</p>
@@ -94,11 +118,11 @@
   </section>
 
   <!-- Gallery -->
-  <section class="section section--gray" style="position:relative;">
+  <section class="section section--gray">
     <div class="container">
       <div class="section__header reveal">
         <p class="section__label">Gallery</p>
-        <h2 class="section__title">Our <span class="keyword-highlight">works</span></h2>
+        <h2 class="section__title">Our <span class="keyword-highlight">work</span></h2>
         <div class="section__line"></div>
       </div>
       <div class="gallery-grid">
@@ -118,6 +142,7 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -138,11 +163,12 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">Unax Aller</a>. All rights reserved.</span>
+        <span class="footer__copyright">&copy; 2026 <a href="https://unaxaller.com" target="_blank" rel="noopener noreferrer">unaxaller.com</a>. All rights reserved.</span>
       </div>
     </div>
   </footer>
 
+  <!-- Lightbox -->
   <div class="lightbox">
     <button class="lightbox__close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
     <button class="lightbox__nav lightbox__prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
@@ -150,7 +176,9 @@
     <button class="lightbox__nav lightbox__next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
   </div>
 
-  <button class="back-to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg></button>
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
 
   <div class="cookie-banner">
     <div class="cookie-banner__inner">
