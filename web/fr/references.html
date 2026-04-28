@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -32,9 +32,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-  <script src="../assets/js/gsap.min.js"></script>
-  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/gsap.min.js" defer></script>
+  <script src="../assets/js/ScrollTrigger.min.js" defer></script>
   <link rel="icon" href="../assets/images/home/favicon.png" type="image/png">
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.tecmac.es/"},{"@type":"ListItem","position":2,"name":"Références","item":"https://www.tecmac.es/fr/references.html"}]}
+</script>
 </head>
 <body>
 
@@ -64,7 +67,7 @@
         <a href="../en/references.html">EN</a>
         <a href="references.html" class="active">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
+      <div class="header__toggle" aria-label="Menu" role="button" tabindex="0" aria-expanded="false"><span></span><span></span><span></span></div>
     </div>
   </header>
   <div class="mobile-menu__overlay"></div>
@@ -113,6 +116,13 @@
         </div>
       </div>
     </section>
+
+  <section class="cta-section" style="text-align:center;padding:3rem 1.5rem;background:var(--color-surface,#0d1117)">
+    <div class="container">
+      <h2 style="font-family:var(--font-heading);font-size:1.5rem;color:var(--color-text,#e2e8f0);margin-bottom:1rem">Vous avez un projet similaire ? Contactez notre équipe</h2>
+      <a href="contact.html" class="btn btn--primary">Demander des informations</a>
+    </div>
+  </section>
   </main>
 
   <footer class="footer">

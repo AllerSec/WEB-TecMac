@@ -81,9 +81,45 @@
   <url><loc>https://www.tecmac.es/en/contact.html</loc><lastmod>2026-04-05</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.tecmac.es/fr/contact.html</loc><lastmod>2026-04-05</lastmod><priority>0.7</priority></url>
   <!-- Galleries -->
-  <url><loc>https://www.tecmac.es/es/galeria-utillaje.html</loc><lastmod>2026-04-05</lastmod><priority>0.5</priority></url>
-  <url><loc>https://www.tecmac.es/es/galeria-transporte.html</loc><lastmod>2026-04-05</lastmod><priority>0.5</priority></url>
-  <url><loc>https://www.tecmac.es/es/galeria-varios.html</loc><lastmod>2026-04-05</lastmod><priority>0.5</priority></url>
+  <url>
+    <loc>https://www.tecmac.es/es/galeria-utillaje.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/galeria-utillaje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-tooling.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-outillage.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-utillaje.html"/>
+  </url>
+  <url><loc>https://www.tecmac.es/eu/galeria-utillaje.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.tecmac.es/en/gallery-tooling.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.tecmac.es/fr/galerie-outillage.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url>
+    <loc>https://www.tecmac.es/es/galeria-transporte.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-transporte.html"/>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/galeria-transporte.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-transport.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-transport.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-transporte.html"/>
+  </url>
+  <url><loc>https://www.tecmac.es/eu/galeria-transporte.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.tecmac.es/en/gallery-transport.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.tecmac.es/fr/galerie-transport.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url>
+    <loc>https://www.tecmac.es/es/galeria-varios.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.tecmac.es/es/galeria-varios.html"/>
+    <xhtml:link rel="alternate" hreflang="eu" href="https://www.tecmac.es/eu/galeria-varios.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tecmac.es/en/gallery-various.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.tecmac.es/fr/galerie-divers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tecmac.es/es/galeria-varios.html"/>
+  </url>
+  <url><loc>https://www.tecmac.es/eu/galeria-varios.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.tecmac.es/en/gallery-various.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
+  <url><loc>https://www.tecmac.es/fr/galerie-divers.html</loc><lastmod>2026-04-28</lastmod><priority>0.5</priority></url>
   <!-- Legal -->
   <url><loc>https://www.tecmac.es/es/aviso-legal.html</loc><lastmod>2026-04-05</lastmod><priority>0.3</priority></url>
   <url><loc>https://www.tecmac.es/es/politica-privacidad.html</loc><lastmod>2026-04-05</lastmod><priority>0.3</priority></url>

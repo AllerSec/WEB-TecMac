@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -32,9 +32,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-  <script src="../assets/js/gsap.min.js"></script>
-  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/gsap.min.js" defer></script>
+  <script src="../assets/js/ScrollTrigger.min.js" defer></script>
   <link rel="icon" href="../assets/images/home/favicon.png" type="image/png">
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.tecmac.es/"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://www.tecmac.es/fr/contact.html"}]}
+</script>
 </head>
 <body>
 
@@ -64,7 +67,7 @@
         <a href="../en/contact.html">EN</a>
         <a href="contact.html" class="active">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
+      <div class="header__toggle" aria-label="Menu" role="button" tabindex="0" aria-expanded="false"><span></span><span></span><span></span></div>
     </div>
   </header>
   <div class="mobile-menu__overlay"></div>
@@ -103,11 +106,11 @@
               </h3>
               <div class="contact-card__line">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                <span>TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.</span>
+                <span>TECMAC Ingeniería y Servicios Auxiliares de Laminación, S.L.<br><strong>CIF :</strong> B75031062</span>
               </div>
               <div class="contact-card__line">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <span>Zalain industrialdea 18D<br>31780 Bera (Navarra), Espagne</span>
+                <span><strong>Siège social :</strong> C/ZAPATEGI, 1 BAJO, 20160 LASARTE-ORIA<br><strong>Adresse physique :</strong> C/ ZALAIN INDUSTRIALDEA 18 D, 31780 BERA (NAVARRE), ESPAGNE</span>
               </div>
               <div class="contact-card__line">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -136,11 +139,16 @@
         </div>
         <div class="contact-form-wrapper">
           <form class="contact-form reveal-left" id="contact-form" data-success="Envoyé avec succès" data-error="Erreur d'envoi">
-            <input type="text" class="contact-form__input" name="nombre" placeholder="NOM" required>
-            <input type="text" class="contact-form__input" name="apellidos" placeholder="PRÉNOM" required>
-            <input type="email" class="contact-form__input" name="email" placeholder="EMAIL" required>
-            <input type="tel" class="contact-form__input" name="telefono" placeholder="TÉLÉPHONE">
-            <textarea class="contact-form__textarea" name="mensaje" placeholder="MESSAGE" required></textarea>
+            <label for="nombre-fr" class="sr-only">Prénom</label>
+            <input type="text" id="nombre-fr" class="contact-form__input" name="nombre" placeholder="NOM" required aria-required="true">
+            <label for="apellidos-fr" class="sr-only">Nom</label>
+            <input type="text" id="apellidos-fr" class="contact-form__input" name="apellidos" placeholder="PRÉNOM" required aria-required="true">
+            <label for="email-fr" class="sr-only">Adresse email</label>
+            <input type="email" id="email-fr" class="contact-form__input" name="email" placeholder="EMAIL" required aria-required="true">
+            <label for="telefono-fr" class="sr-only">Numéro de téléphone</label>
+            <input type="tel" id="telefono-fr" class="contact-form__input" name="telefono" placeholder="TÉLÉPHONE">
+            <label for="mensaje-fr" class="sr-only">Message</label>
+            <textarea id="mensaje-fr" class="contact-form__textarea" name="mensaje" placeholder="MESSAGE" required aria-required="true"></textarea>
             <button type="submit" class="contact-form__btn">
               Envoyer
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4 20-7z"/></svg>

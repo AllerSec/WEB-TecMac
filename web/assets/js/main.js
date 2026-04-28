@@ -56,6 +56,21 @@ function initApp() {
         .to(loaderLogo, { autoAlpha: 1, scale: 1, duration: 0.7, ease: 'back.out(1.4)' })
         .to(loaderBar,  { width: '100%', duration: 1.2, ease: 'expo.inOut' }, '-=0.2')
         .to(loaderLogo, { autoAlpha: 0, y: -15, duration: 0.5, ease: 'power3.in' }, '+=0.15');
+
+      // Fallback: si la página ya cargó y el loader aún es visible, ocultarlo inmediatamente
+      window.addEventListener('load', () => {
+        if (loader && loader.parentNode && !loaderFinished) {
+          loaderTl.kill();
+          gsap.to(loader, {
+            autoAlpha: 0, duration: 0.5, ease: 'power2.inOut',
+            onComplete: () => {
+              loader.remove();
+              sessionStorage.setItem('tecmac_loaded', '1');
+              resolveLoader();
+            }
+          });
+        }
+      });
     }
   } else {
     resolveLoader();
@@ -64,9 +79,16 @@ function initApp() {
   // ── Scroll Progress ──
   const scrollBar = document.querySelector('.scroll-progress');
   if (scrollBar) {
+    let scrollBarTicking = false;
     window.addEventListener('scroll', () => {
-      const h = document.documentElement;
-      scrollBar.style.width = ((h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100) + '%';
+      if (!scrollBarTicking) {
+        requestAnimationFrame(() => {
+          const h = document.documentElement;
+          scrollBar.style.width = ((h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100) + '%';
+          scrollBarTicking = false;
+        });
+        scrollBarTicking = true;
+      }
     }, { passive: true });
   }
 
@@ -85,8 +107,15 @@ function initApp() {
   // ── Header Scroll ──
   const header = document.querySelector('.header');
   if (header) {
+    let headerTicking = false;
     window.addEventListener('scroll', () => {
-      header.classList.toggle('scrolled', window.scrollY > 60);
+      if (!headerTicking) {
+        requestAnimationFrame(() => {
+          header.classList.toggle('scrolled', window.scrollY > 60);
+          headerTicking = false;
+        });
+        headerTicking = true;
+      }
     }, { passive: true });
   }
 
@@ -99,6 +128,7 @@ function initApp() {
     const menuLinks = mobileMenu.querySelectorAll('a');
     const openMenu = () => {
       toggle.classList.add('open');
+      toggle.setAttribute('aria-expanded', 'true');
       if (overlay) overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
       mobileMenu.style.display = 'flex';
@@ -108,6 +138,7 @@ function initApp() {
     };
     const closeMenu = () => {
       toggle.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
       if (overlay) overlay.classList.remove('open');
       document.body.style.overflow = '';
       gsap.to(mobileMenu, {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -32,9 +32,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
-  <script src="../assets/js/gsap.min.js"></script>
-  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/gsap.min.js" defer></script>
+  <script src="../assets/js/ScrollTrigger.min.js" defer></script>
   <link rel="icon" href="../assets/images/home/favicon.png" type="image/png">
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.tecmac.es/"},{"@type":"ListItem","position":2,"name":"Contacto","item":"https://www.tecmac.es/es/contacto.html"}]}
+</script>
 </head>
 <body>
 
@@ -64,7 +67,7 @@
         <a href="../en/contact.html">EN</a>
         <a href="../fr/contact.html">FR</a>
       </div>
-      <div class="header__toggle" aria-label="Menú" role="button" tabindex="0"><span></span><span></span><span></span></div>
+      <div class="header__toggle" aria-label="Menú" role="button" tabindex="0" aria-expanded="false"><span></span><span></span><span></span></div>
     </div>
   </header>
   <div class="mobile-menu__overlay"></div>
@@ -135,11 +138,16 @@
         </div>
         <div class="contact-form-wrapper">
           <form class="contact-form reveal-left" id="contact-form" data-success="Enviado correctamente" data-error="Error al enviar">
-            <input type="text" class="contact-form__input" name="nombre" placeholder="NOMBRE" required>
-            <input type="text" class="contact-form__input" name="apellidos" placeholder="APELLIDOS" required>
-            <input type="email" class="contact-form__input" name="email" placeholder="EMAIL" required>
-            <input type="tel" class="contact-form__input" name="telefono" placeholder="TELÉFONO">
-            <textarea class="contact-form__textarea" name="mensaje" placeholder="MENSAJE" required></textarea>
+            <label for="nombre-es" class="sr-only">Nombre</label>
+            <input type="text" id="nombre-es" class="contact-form__input" name="nombre" placeholder="NOMBRE" required aria-required="true">
+            <label for="apellidos-es" class="sr-only">Apellidos</label>
+            <input type="text" id="apellidos-es" class="contact-form__input" name="apellidos" placeholder="APELLIDOS" required aria-required="true">
+            <label for="email-es" class="sr-only">Email</label>
+            <input type="email" id="email-es" class="contact-form__input" name="email" placeholder="EMAIL" required aria-required="true">
+            <label for="telefono-es" class="sr-only">Teléfono</label>
+            <input type="tel" id="telefono-es" class="contact-form__input" name="telefono" placeholder="TELÉFONO">
+            <label for="mensaje-es" class="sr-only">Mensaje</label>
+            <textarea id="mensaje-es" class="contact-form__textarea" name="mensaje" placeholder="MENSAJE" required aria-required="true"></textarea>
             <button type="submit" class="contact-form__btn">
               Enviar
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4 20-7z"/></svg>
