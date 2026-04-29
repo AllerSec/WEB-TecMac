@@ -380,6 +380,43 @@ function initApp() {
       }),
       start: 'top 92%', once: true
     });
+
+    // ── fab-item-badge: badge pop on enter ──
+    if (document.querySelector('.fab-item-badge')) {
+      gsap.set('.fab-item-badge', { scale: 0, autoAlpha: 0 });
+      ScrollTrigger.batch('.fab-item-badge', {
+        onEnter: (batch) => gsap.to(batch, {
+          scale: 1, autoAlpha: 1,
+          stagger: 0.15, duration: 0.7, ease: 'back.out(2)', delay: 0.3
+        }),
+        start: 'top 96%', once: true
+      });
+    }
+
+    // ── fab-fade: fabricacion gallery batch reveal ──
+    if (document.querySelector('.fab-fade')) {
+      gsap.set('.fab-fade', { autoAlpha: 0, y: 28 });
+      ScrollTrigger.batch('.fab-fade', {
+        interval: 0.08,
+        batchMax: 6,
+        onEnter: (batch) => gsap.to(batch, {
+          autoAlpha: 1, y: 0,
+          stagger: 0.07,
+          duration: 0.9,
+          ease: 'expo.out',
+          clearProps: 'transform'
+        }),
+        start: 'top 100%',
+        once: true
+      });
+      setTimeout(() => {
+        document.querySelectorAll('.fab-fade').forEach(el => {
+          if (parseFloat(getComputedStyle(el).opacity) < 0.1) {
+            gsap.set(el, { autoAlpha: 1, y: 0, clearProps: 'transform' });
+          }
+        });
+      }, 2500);
+    }
   }
 
   // ── Keyword Highlight on scroll ──
