@@ -285,12 +285,18 @@ ul,ol{list-style:none}
 .lightbox__next{right:20px}
 
 /* --- References Grid --- */
-.references-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-@media(min-width:768px){.references-grid{grid-template-columns:repeat(5,1fr);gap:24px}}
+.references-grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.references-grid .reference-item{width:calc(50% - 10px)}
+@media(min-width:768px){.references-grid .reference-item{width:calc(20% - 20px)}}
 .reference-item{display:flex;align-items:center;justify-content:center;padding:28px 20px;background:var(--color-bg-card);border:1px solid var(--color-border);border-radius:var(--radius-md);transition:all var(--transition-base);min-height:100px}
 .reference-item:hover{border-color:var(--color-border-hover);background:rgba(255,255,255,0.04);transform:translateY(-4px);box-shadow:var(--shadow-md)}
-.reference-item img{max-width:120px;max-height:60px;width:auto;height:auto;object-fit:contain;filter:grayscale(1) brightness(0.7);transition:filter var(--transition-base)}
-.reference-item:hover img{filter:grayscale(0) brightness(1)}
+.reference-item img{max-width:120px;max-height:60px;width:auto;height:auto;object-fit:contain;transition:filter var(--transition-base)}
+.reference-item--text{cursor:default}
+.reference-item--text span{font-family:var(--font-heading);font-size:1rem;font-weight:600;letter-spacing:.04em;color:var(--color-muted,#8892a4);text-align:center;text-transform:uppercase;transition:color var(--transition-base)}
+.reference-item--text:hover span{color:var(--color-text,#e2e8f0)}
+.reference-item--screen img{mix-blend-mode:screen}
+.reference-item--white{background:#fff}
+.reference-item--white:hover{background:#f0f0f0}
 
 /* --- Contact --- */
 .contact-grid{display:grid;grid-template-columns:1fr;gap:40px}
